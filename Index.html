@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Registration form</h1>
+    <form>
+        <label
+          >First Name: * <span class="req"></span> <input type="text"/></label>
+        <label>Last Name: *<span class="req"></span> <input type="text"/></label>
+        <label>Email Address: *<span class="req"></span> <input type="text"/></label>
+        <label>Password:*<span class="req"></span> <input type="text" /></label>
+        <label>Confirm Password:*<span class="req"></span> <input type="text"/></label>
+        <label>Birthday:<span class="req"></span> <input type="text" /></label>
+
+        <label>Gender Identity: </label>
+      <p>
+        <input type="radio" >Male
+        <input type="radio" >Female
+        <input type="radio" >Gender Identity
+        <input type="radio" >I Prefer not to answer
+      </p>
+      
+        <label for="">A Short description about myself:</label>
+        <textarea name="" id="" cols="25" rows="3"></textarea>
+      <div>
+      <label for="">Favorite language</label>
+      <select name="language" id="">
+        <option value="java">java</option>
+        <option value="python">python</option>
+        <option value="javascript">javascript</option>
+        <option value="C++">C++</option>
+      </select>
+      </div>
+      <div>
+        <input type="checkbox" name="accept" id="ads" />
+        <label for="ads">Yes, I would like to recieve periodic email updates</label>
+        </div>
+        <input type="submit" value="Create Account" />
+        <label for="">* Indicates a required field</label>
+    </form>
+  </body>
+</html>
